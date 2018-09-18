@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<link rel="apple-touch-startup-image" href="images/apple-touch-startup-image-320x460.png" />
+<meta name="author" content="byNeto" />
+<meta name="description" content="GoMobile - A next generation web app theme" />
+<meta name="keywords" content="mobile web app, mobile template, mobile design, mobile app design, mobile app theme, mobile wordpress theme, my mobile app" />
+<title>BetoControl</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<link type="text/css" rel="stylesheet" href="colors/black/black.css"/>
+<link type="text/css" rel="stylesheet" href="css/idangerous.swiper.css"/>
+<link type="text/css" rel="stylesheet" href="css/swipebox.css"/>
+<link href='http://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'/>
+</head>
+<body>
+  <div id="header">
+      <div class="gohome radius20"><a href="#"><img src="images/icons/home.png" alt="" title="" /></a></div>
+      <div class="gomenu radius20"><a href="#" onclick="swiperParent.swipeTo(10);"><img src="images/icons/contact.png" alt="" title="" /></a></div>
+  </div>
+  <div class="swiper-container swiper-parent">
+    <div class="swiper-wrapper">
+
+      <!--Menu page-->
+      <div class="swiper-slide sliderbg_menu">
+          <div class="swiper-container swiper-nested">
+                   <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                                  <div class="slide-inner">
+                                        <div class="logo"><a href="#"><img src="colors/black/images/logo.jpg" alt="" title="" border="0" /></a></div>
+                                        <center><h2 id="texto"></h2></center>
+                                        <div class="menu">
+                                        <ul>
+                                        <li><a href="#" onclick="javascript:window.plugins.flashlight.switchOn();"><span>FAROL ON</span></a></li>
+                                        <li><a href="#" onclick="javascript:window.plugins.flashlight.switchOff();"><span>FAROL OFF</span></a></li>
+                                        <li><a href="#" onclick="javascript:navigator.vibrate(10000);"><span>MOTOR ON</span></a></li>
+                                        <li><a href="#" onclick="javascript:navigator.vibrate(0);"><span>MOTOR OFF</span></a></li>
+                                        <li><a href="#" onclick="javascript:setTimeout(function() {window.plugins.flashlight.switchOn();}, 3000);"><span>TEMPORIZADOR ON</span></a></li>
+                                        <li><a href="#" onclick="javascript:window.plugins.flashlight.switchOff();"><span>TEMPORIZADOR OFF</span></a></li>
+                                        <li><a href="#" onclick="app.voiceCommand();"><span>ATIVAR COMANDO DE VOZ</span></a></li>
+                                        <li><a href="#" onclick="app.stopCommand();"><span>DESATIVAR COMANDO DE VOZ</span></a></li>
+                                        <!--<li><a href="#" onclick="swiperParent.swipeTo(7);"><img src="images/icons/videos.png" alt="" title="" /><span>Videos</span></a></li>-->
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                        </div>
+                                 </div>
+                         </div>
+                   </div>
+                  <div class="swiper-scrollbar"></div>
+          </div> 
+      </div>
+    </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "BetoControl",
+  "short_name": "BetoControl",
+  "version": "io.cordova.hellocordova",
+  "description": "Controle automotivo.",
+  "author": "Apache Cordova Team",
+  "icons": [],
+  "start_url": "index.html"
+}
